@@ -1,0 +1,154 @@
+/* Ajustes generales */
+body {
+    padding-top: 56px; /* Ajuste para la barra de navegación fija */
+}
+
+/* Estilos para la barra de navegación */
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    color: olivedrab;
+}
+
+.navbar-light .navbar-brand {
+    font-weight: bold;
+}
+
+/* Estilo para el botón "Contáctanos" */
+.contact-button {
+    background-color: olivedrab; /* Color verde */
+    color: #fff !important; /* Texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 8px 15px; /* Ajuste de relleno */
+}
+
+/* Estilo para los elementos del menú al pasar el cursor */
+.navbar-nav .nav-item:hover .nav-link {
+    color: olivedrab; /* Cambiar color del texto al pasar el cursor */
+}
+
+/* Línea debajo de los elementos del menú al pasar el cursor */
+.navbar-nav .nav-item:hover .nav-link::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid olivedrab; /* Línea verde */
+    margin-top: 3px; /* Ajuste de posición */
+}
+
+/* Estilos para las tarjetas de productos */
+.product-card {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    max-height: 350px; /* Ajusta la altura máxima según tus necesidades */
+}
+
+/* Overlay en tarjetas de productos */
+.product-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.product-card:hover .overlay {
+    opacity: 1;
+}
+
+.product-card .overlay a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilos para el carrusel */
+#carouselExampleControls {
+    max-width: 60%;
+    max-height: 120%;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+/* Estilos para la sección "Donde Encontrarnos" */
+#where-we-are {
+    padding: 50px 0;
+}
+
+#where-we-are h2 {
+    color: #343a40; /* Color del texto oscuro */
+}
+
+/* Estilos para la sección de galería */
+#gallery {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 50px 0; /* Ajuste de relleno */
+}
+
+/* Establecer un ancho y alto predefinido para las imágenes en la galería */
+.gallery-image {
+    width: 300px; /* Máximo ancho permitido */
+    height: 300px; /* Máxima altura permitida */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+
+/* Estilos para los títulos de la galería */
+#gallery h2 {
+    color: #28a745; /* Color del título */
+}
+
+/* Estilos para las imágenes de la galería */
+.gallery-image {
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+    transition: transform 0.3s ease-in-out; /* Efecto de transición al pasar el cursor */
+}
+
+.gallery-image:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el cursor */
+}
+
+
+/* Estilos para las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #000;
+}
+
+/* Cambiar el color de fondo al pasar el cursor sobre las flechas */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #28a745; /* Fondo verde */
+}
+
+/* Personalización adicional */
+.bg-success {
+    background-color: olivedrab !important;
+}
+
+.social-link {
+    padding-bottom: 10px; /* Puedes ajustar el valor según tus preferencias */
+}
+
+.custom-size {
+    width: 40%; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Esto permite que la altura se ajuste automáticamente para mantener la proporción de la imagen */
+}
+

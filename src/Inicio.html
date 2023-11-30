@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos una empresa dedicada a la producción de Minerales para el Agro y la Industria Colombiana. Descubre nuestros productos de alta calidad.">
+    <title>Agrogranitos del Sur SAS - Productos de Alta Calidad para la Agricultura</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="shortcut icon" href="assets/Logo1.png">
+</head>
+<body>
+
+    
+<!-- Barra de Navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <a class="navbar-brand" href="#">Agrogranitos del Sur SAS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item">
+          <a class="nav-link" href="#about-us">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#products">Productos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#gallery">Galería</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#where-we-are">Donde Encontrarnos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link contact-button" href="#contact" data-toggle="modal" data-target="#contactModal">Contáctanos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Contenido de la Página -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 style="color: olivedrab;">Agrogranitos del Sur SAS</h1>
+            <hr>
+            <span style="color: rgb(72, 96, 25); font-size: 1.5em;">Minerales para agricultura e industria</span>
+            <p style="color: rgb(74, 80, 63);">Agro granitos del Sur S.A.S, es una empresa Huilense, dedicada a la producción y comercialización de fertilizantes Inorgánicos extraídos de yacimientos 100 % naturales utilizados para Enmienda de suelos con problemas de pH y Acondicionadores de suelos con problemas de Sodio etc.</p>
+        </div>
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <img src="assets/Logo3.png" alt="Logo de la empresa" class="img-fluid custom-size">
+        </div>
+    </div>
+</div>
+
+<!-- Carrusel con marco -->
+<div id="carouselExampleControls" class="carousel slide mt-5 border border-dark rounded" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="assets/AgroMachine.jpg" class="d-block w-100" alt="Tractor arando la tierra">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/Man.jpg" class="d-block w-100" alt="Campesino trabajando">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/Field1.jpg" class="d-block w-100" alt="Tierra de cultivo">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+    </a>
+</div>
+
+  <br>
+
+<!-- Contenedor de la sección "Sobre nosotros" con fondo verde -->
+<div class="bg-success text-white py-5" id="about-us">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Sobre nosotros</h2>
+                <p class="mx-auto" style="max-width: 400px;">Somos una empresa Huilense, dedicada a la producción de
+                    Minerales para el Agro y la Industria Colombiana. Extrayendo los
+                    mejores insumos de las minas de la Región, para obtener productos
+                    de alta calidad. Comprometidos siempre con el cuidado del medio
+                    ambiente.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Productos -->
+  <div id="products" class="container mt-4 text-center">
+  <h2 class="mx-auto mb-4">Nuestros Productos</h2>
+  <hr>
+  <div class="row">
+  <div class="col-md-4">
+      <div class="product-card">
+          <img src="assets/Carbonato.png" alt="Producto 1: carbonato de calcio" class="img-fluid">
+          <h3 class="mt-3">Carbonato de calcio</h3>
+          <div class="overlay">
+              <a href="#" data-toggle="modal" data-target="#modal1">Ver más</a>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="product-card">
+          <img src="assets/Granito.png" alt="Producto 2: Granitos" class="img-fluid">
+          <h3 class="mt-3">Granitos</h3>
+          <div class="overlay">
+              <a href="#" data-toggle="modal" data-target="#modal2">Ver más</a>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="product-card">
+          <img src="assets/Yeso.png" alt="Producto 3: Yeso agricola" class="img-fluid">
+          <h3 class="mt-3">Yeso agricola</h3>
+          <div class="overlay">
+              <a href="#" data-toggle="modal" data-target="#modal3">Ver más</a>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="product-card">
+          <img src="assets/Cal_agricola.png" alt="Producto 4: Cal agricola" class="img-fluid">
+          <h3 class="mt-3">Cal agricola</h3>
+          <div class="overlay">
+              <a href="#" data-toggle="modal" data-target="#modal4">Ver más</a>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="product-card">
+          <img src="assets/Cal dolomita.png" alt="Producto 5: Cal dolomita" class="img-fluid">
+          <h3 class="mt-3">Cal dolomita</h3>
+          <div class="overlay">
+              <a href="#" data-toggle="modal" data-target="#modal5">Ver más</a>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-4">
+      <div class="product-card">
+          <img src="assets/Mezclas.png" alt="Producto 6: Mezclas" class="img-fluid">
+          <h3 class="mt-3">Mezclas</h3>
+          <div class="overlay">
+              <a href="#" data-toggle="modal" data-target="#modal6">Ver más</a>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+
+
+<!-- Sección de Galería -->
+<div id="gallery" class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 style="color: #28a745;">Galería</h2>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 d-flex justify-content-center">
+            <img src="https://www.naturezza.com.co/fotosnoticias/mac_tipos_de_abonos_naturales_para_tener_tierra_fertil_1530809940.jpg" alt="Descripción de la imagen 1" class="img-fluid gallery-image">
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+            <img src="https://i.pinimg.com/originals/58/ec/d4/58ecd43a32dafded87f6f67c28cabd13.jpg" alt="Descripción de la imagen 2" class="img-fluid gallery-image">
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+            <img src="https://www.guiadejardineria.com/wp-content/uploads/2018/05/Abonos-minerales-para-las-plantas.jpg" alt="Descripción de la imagen 3" class="img-fluid gallery-image">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-4 d-flex justify-content-center">
+            <img src="https://i.pinimg.com/564x/c8/78/9f/c8789f3d2567da5681290ef268eb614b.jpg" alt="Descripción de la imagen 4" class="img-fluid gallery-image">
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+            <img src="https://aefa-agronutrientes.org/wp-content/uploads/aplicacion-de-yeso-agricola.jpg" alt="Descripción de la imagen 5" class="img-fluid gallery-image">
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+            <img src="https://mycal.com.pe/wp-content/uploads/2022/04/portaada-.jpg" alt="Descripción de la imagen 6" class="img-fluid gallery-image">
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Donde Encontrarnos -->
+<div id="where-we-are" class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Donde Encontrarnos</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127511.7857064988!2d-75.46907673082764!3d2.8901864934702046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b0d70adf0d9b3%3A0x6edb4f484cf5feef!2sAgrogranitos%20del%20sur%20sas!5e0!3m2!1ses-419!2sco!4v1701318704724!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-success text-white py-3">
+    <div class="container-fluid mx-3">
+        <div class="row">
+            <!-- Sección de Redes Sociales -->
+            <div class="col-md-4">
+                <h5>Síguenos en Redes Sociales</h5>
+                <ul class="list-unstyled">
+                    <li class="social-link"><a href="https://www.facebook.com/profile.php?id=61551985465766&mibextid=ViGcVu" target="_blank" class="text-white"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li class="social-link"><a href="https://www.tiktok.com/@agrogranitosdelsursas?_t=8hkMBAGK8Kj&_r=1" target="_blank" class="text-white"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                </ul>
+            </div>
+            <!-- Sección de Información de Contacto -->
+            <div class="col-md-4">
+                <h5>Contacto</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-phone"></i> Teléfono: 3204451084</li>
+                    <li><i class="far fa-envelope"></i> Email: agrogranitosdelsur@gmail.com</li>
+                    <li><i class="far fa-clock"></i> Horario: Lunes a Sábado, 7 AM - 6 PM</li>
+                </ul>
+            </div>
+            <!-- Sección de Ubicación -->
+            <div class="col-md-4">
+                <h5>Ubicación</h5>
+                <p>KM 6 VIA NEIVA PALERMO- ZONA INDUSTRIAL VEREDA SAN MIGUEL</p>
+            </div>
+        </div>
+    </div>
+</footer>
+  <!-- Modal para Producto 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel1">Carbonato de calcio</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal para el Producto 1 -->
+              <p>El carbonato de calcio es un mineral compuesto de calcio y carbono. Es un compuesto blanco, inodoro e insípido que se encuentra en la naturaleza en forma de piedra caliza, mármol y yeso. También se produce de forma sintética como producto de desecho de la industria del papel y la pulpa.</p>
+              <p>En la agricultura, el carbonato de calcio se utiliza como enmienda del suelo para neutralizar la acidez del suelo. También se utiliza como fertilizante para proporcionar calcio a las plantas.</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Modal para Producto 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel2">Granitos</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal para el Producto 2 -->
+              <p>Los granitos son rocas ígneas intrusivas compuestas de cuarzo, feldespato y mica. Son una de las rocas más comunes de la corteza terrestre y se encuentran en todo el mundo.</p>
+              <p>Los granitos se utilizan en una variedad de aplicaciones, incluyendo la construcción, la decoración y la fabricación de cemento. En la agricultura, los granitos se utilizan como enmienda del suelo para mejorar la estructura del suelo y la retención de agua.</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Modal para Producto 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel3">Yeso agricola</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal para el Producto 3 -->
+              <p>yeso agrícola es una forma de yeso (sulfato de calcio) que se utiliza en la agricultura. Se produce a partir de la roca de yeso, que se calienta a altas temperaturas para eliminar el agua.</p>
+              <p><strong>El yeso agrícola tiene una serie de beneficios para el suelo, incluyendo:</strong></p>
+              <li>Neutraliza la acidez del suelo</li>
+              <li>Mejora la estructura del suelo</li>
+              <li>Aumenta la capacidad de retención de agua del suelo</li>
+              <li>Mejora la disponibilidad de nutrientes para las plantas</li>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal para Producto 4 -->
+<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modalLabel4" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel4">Cal agricola</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal para el Producto 4 -->
+              <p>La cal agrícola es un producto de la calcinación del carbonato de calcio. El proceso de calcinación se lleva a cabo calentando el carbonato de calcio a altas temperaturas, lo que convierte el carbonato en óxido de calcio.</p>
+              <p><strong>La cal agrícola tiene una serie de beneficios para el suelo, incluyendo:</strong></p>      
+              <li>Neutraliza la acidez del suelo</li>
+              <li>Mejora la estructura del suelo</li>
+              <li>Aumenta la capacidad de retención de agua del suelo</li>
+              <li>Mejora la disponibilidad de nutrientes para las plantas</li>       
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal para Producto 5 -->
+<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modalLabel5" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel5">Cal dolomita</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal para el Producto 5 -->
+              <p>La cal dolomita es un tipo de cal agrícola que contiene magnesio. Se produce a partir de la dolomita, que es un mineral compuesto de calcio y magnesio.</p>
+              <p>La cal dolomita tiene los mismos beneficios para el suelo que la cal agrícola, pero también proporciona magnesio a las plantas. El magnesio es un nutriente esencial para las plantas que ayuda a la producción de clorofila, la fotosíntesis y la absorción de otros nutrientes.</p>
+              <p>La cal dolomita se utiliza para una variedad de cultivos, incluyendo cereales, frutas, verduras y pastos. </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal para Producto 6 -->
+<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modalLabel6" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel6">Mezclas</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <!-- Contenido del modal para el Producto 6 -->
+              <p>Las mezclas son combinaciones de dos o más materiales que se utilizan en la agricultura. Las mezclas de enmiendas del suelo se utilizan para proporcionar una combinación de beneficios para el suelo.</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal de Contacto -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contáctanos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Pestañas de contacto -->
+                <ul class="nav nav-tabs" id="contactTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="whatsapp-tab" data-toggle="tab" href="#whatsapp" role="tab" aria-controls="whatsapp" aria-selected="true"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="email-tab" data-toggle="tab" href="#email" role="tab" aria-controls="email" aria-selected="false"><i class="far fa-envelope"></i> Correo</a>
+                    </li>
+                </ul>
+                <div class="tab-content mt-3">
+                    <!-- Pestaña de WhatsApp -->
+                    <div class="tab-pane fade show active" id="whatsapp" role="tabpanel" aria-labelledby="whatsapp-tab">
+                        <p>Ponte en contacto con nosotros a través de WhatsApp.</p>
+                        <a href="https://wa.me/3204451084" target="_blank" class="btn btn-success"><i class="fab fa-whatsapp"></i> Abrir WhatsApp</a>
+                    </div>
+                    <!-- Pestaña de Correo -->
+                    <div class="tab-pane fade" id="email" role="tabpanel" aria-labelledby="email-tab">
+                        <p>Envíanos un correo electrónico para obtener más información.</p>
+                        <a href="mailto:agrogranitosdelsur@gmail.com" class="btn btn-info"><i class="far fa-envelope"></i> Enviar Correo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
